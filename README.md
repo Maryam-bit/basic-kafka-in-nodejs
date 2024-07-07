@@ -1,17 +1,17 @@
-## Kafka Basic Integration with JavaScript
+# Kafka Basic Integration with JavaScript
 
 This project demonstrates basic integration of Apache Kafka with a JavaScript application using the `kafkajs` library.
 
-### Getting Started
+## Getting Started
 
 Follow these steps to set up and run the project locally.
 
-#### Prerequisites
+### Prerequisites
 
 * Docker
 * Node.js
 
-#### Installation
+### Installation
 
 1. **Clone the repository:**
 
@@ -26,9 +26,9 @@ cd basic-kafka-in-nodejs
 npm install
 ```
 
-### Running Locally
+## Running Locally
 
-#### Step 1: Start Zookeeper and Kafka
+### Step 1: Start Zookeeper and Kafka
 
 Start the Zookeeper and Kafka services using Docker Compose:
 
@@ -36,7 +36,7 @@ Start the Zookeeper and Kafka services using Docker Compose:
 docker-compose up -d
 ```
 
-#### Step 2: Create a Topic
+### Step 2: Create a Topic
 
 Run the `admin.js` script to create the necessary topic:
 
@@ -44,7 +44,7 @@ Run the `admin.js` script to create the necessary topic:
 node admin.js
 ```
 
-#### Step 3: Run Multiple Consumers
+### Step 3: Run Multiple Consumers
 
 Run one or more consumers by executing the `consumer.js` script with a group name:
 
@@ -52,7 +52,7 @@ Run one or more consumers by executing the `consumer.js` script with a group nam
 node consumer.js <GROUP_NAME>
 ```
 
-#### Step 4: Run the Producer and Send Messages
+### Step 4: Run the Producer and Send Messages
 
 Run the `producer.js` script and send messages:
 
@@ -61,8 +61,6 @@ node producer.js
 > tony south
 > tony north
 ```
-
-#### Verifying the Setup
 
 Ensure messages are received in the consumer terminal(s) as you send them from the producer.
 
