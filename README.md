@@ -1,4 +1,4 @@
-# Kafka Basic Integration with JavaScript
+# Kafka Basic Integration with NodeJS
 
 This project demonstrates basic integration of Apache Kafka with a JavaScript application using the `kafkajs` library.
 
