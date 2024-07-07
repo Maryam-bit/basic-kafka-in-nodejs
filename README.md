@@ -16,8 +16,8 @@ Follow these steps to set up and run the project locally.
 1. **Clone the repository:**
 
 ```
-git clone <repository_url>
-cd <repository_name>
+git clone [<repository_url>](https://github.com/Maryam-bit/basic-kafka-in-nodejs)
+cd basic-kafka-in-nodejs
 ```
 
 2. Install Node.js dependencies:
